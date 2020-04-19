@@ -1,0 +1,15 @@
+.placeLabel{
+  top: 6px;
+  font-weight: 700;
+  font-size: 13px;
+  position: absolute;
+  left: 10px;
+  color: #8c8c8c;
+}
+
+#e-mail{
+  min-width: 500px;
+  height: 70px !important;
+  border-top-right-radius: 0;
+  padding: 10px 10px 0;
+}

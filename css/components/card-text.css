@@ -1,0 +1,14 @@
+/* I use this class almost everywhere, it shapes the general text of each card, even though
+I sometimes chose to makes changes using an id*/
+
+.card-text{
+  font-size: 1.625rem;
+  font-weight: normal;
+  max-width: 950px;
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+

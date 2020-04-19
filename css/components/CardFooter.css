@@ -1,0 +1,102 @@
+/*Pretty self-explaining*/
+
+.cardFooter{
+  padding: 70px 45px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 0px;
+  min-width: 190px;
+  width: 90%;
+  padding-bottom: 20px;
+  font-size: 1em;
+  color: #757575;
+  position: relative
+}
+
+.FooterTop{
+  padding: 0;
+  margin: 0 0 30px;
+  margin-top: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footerlinks{
+  padding: 0;
+  margin: 0;
+  max-width: 1000px;
+  font-size: 13px;
+  display: inline-table;
+}
+
+.footer-link{
+  color: #757575;
+  font-weight: lighter;
+}
+
+.footer-link:hover{
+  text-decoration: underline;
+  color:#757575;
+  font-weight: lighter;
+}
+
+.FooterItem{
+  box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 16px;
+  display: inline-block;
+  min-width: 100px;
+  width: 25%;
+  padding-right: 12px;
+  vertical-align: top;
+}
+
+.cardFooter button{
+  color:#999;
+  border: 1px solid #333333;
+  font-size: 16px;
+  padding-left: 50px;
+  line-height: 1.7;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+
+.cardFooter button:hover{
+  color:#999;
+}
+
+.dropdown-item{
+  color:#999;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: #000000;
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+
+.dropdown-item:hover{
+  color:white;
+  background:#1E90FF;
+  font-weight: normal;
+}
+
+.dropdown-menu{
+  transform: translate3d(0px, 59px, 0px);
+  min-width: 9rem;
+  background-color: #000000;
+  border: 1px solid #333333
+  border-radius:2px;
+  padding-left: 50px;
+}
+
+.footer-country{
+  font-size: 13px;
+  margin-top: 24px;
+  font-weight: lighter;
+}

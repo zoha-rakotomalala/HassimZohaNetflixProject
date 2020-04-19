@@ -1,0 +1,30 @@
+/* Specific category, only used once, and many things to customize, so I chose this way of defining
+my class*/
+
+.cardHeader h1 {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+.cardHeader h2 {
+  margin: 1rem auto;
+  font-size: 1.625rem;
+  font-weight: normal;
+}
+
+.card-img-overlay{
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding-top: 0px;
+}
+
+.card-img{
+  object-fit: cover;
+}

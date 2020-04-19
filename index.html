@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/icon.png" />
+
+    <title>Netflix France - Regardez des séries TV en ligne, Regardez des films en ligne</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="card text-white">
+        <div class="cardHeader">
+            <img src="https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/7ca1e3b1-9e3c-4591-a24a-c11453b03bc9/FR-fr-20200302-popsignuptwoweeks-perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/7ca1e3b1-9e3c-4591-a24a-c11453b03bc9/FR-fr-20200302-popsignuptwoweeks-perspective_alpha_website_small.jpg 100w, https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/7ca1e3b1-9e3c-4591-a24a-c11453b03bc9/FR-fr-20200302-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/7ca1e3b1-9e3c-4591-a24a-c11453b03bc9/FR-fr-20200302-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w" alt="Netflix's Background" class="card-img" id="Background-gradient">
+            <div class="card-img-overlay">
+              <div class="header-banner">
+                <img src="images/Logo.svg" alt="Logo de Netflix" id="logo" class="img-fluid" alt="Responsive image">
+                <a href="https://www.netflix.com/fr/login" class="btn-red" >S'identifier</a>
+              </div>
+              <div class="text-center">
+                <div class="card-text" style="padding-top: 166px;">
+                  <h1>Films, séries TV et bien plus en illimité.</h1>
+                  <h2>Où que vous soyez. Annulez à tout moment.</h2>
+                  <form id="emailForm" action="https://hooks.zapier.com/hooks/catch/7207925/o5m121w/" type="post">
+                    <div class="input-group">
+                      <input type="email" id="e-mail-Customize" name="email-address" placeholder="Adresse e-mail"/>
+                      <input type="submit" class="btn-red" value="ESSAYER" id="Form-submit-Customize" />
+                    </div>
+                  </form>
+                  <h3>Prêt à regarder Netflix? Saisissez votre adresse e-mail pour créer votre compte ou y accéder.</h3>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="card text-white">
+          <div class="card-onScreen">
+            <div class="animation-onScreen">
+              <div class="text-left">
+                <div class="card-text">
+                  <h1>Regardez Netflix sur votre TV.</h1>
+                  <h2>Regardez Netflix sur votre Smart TV, PlayStation, Xbox, Chromecast, Apple TV, lecteurs Blu-ray et bien plus.</h2>
+                </div>
+              </div>
+                <div class="video-onScreen" id="NavigationNetflix">
+                  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="Cadre TV">
+                  <video autoplay="true" playinline muted loop id="VideoNavigation">
+                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv.m4v" type="video/mp4">
+                  </video>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="card text-white">
+        <div class="card-onScreen" id="StrangerThingsContainer">
+          <div class="animation-onScreen" id="stranger-things-animation">
+            <div class="video-onScreen" id="LoadingStrangerThings">
+              <div class="animation-underScreen">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="Stranger Things Logo">
+                <div class="textunderScreen">
+                  <div class="ShowName">Stranger Things</div>
+                  <div class="DownloadSentence">Téléchargement en cours...</div>
+                </div>
+                <img src="images/DownloadGIF.gif" id="DownloadGIF" alt="DownloadGIF">
+              </div>
+              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" id="InPhonePicture" alt="Cadre Smartphone">
+            </div>
+            <div class="text-left">
+              <div>
+                <div class="card-text" id=StrangerThingsText>
+                  <h1>Téléchargez vos séries préférées pour les regarder hors connexion.</h1>
+                  <h2>Profitez du mode hors ligne sans épuiser votre forfait.</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card text-white">
+        <div class="card-onScreen">
+          <div class="animation-onScreen">
+            <div class="text-left">
+              <div class="card-text">
+                <h1>Où que vous soyez.</h1>
+                <h2>Regardez des films et séries TV en accès illimité sur votre TV, smartphone, tablette et ordinateur, tout compris.</h2>
+              </div>
+            </div>
+            <div class="video-onScreen" id="StrangerThingsVideo">
+              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="Cadre Devices" id="Mac">
+              <video autoplay="true" playinline muted loop id="VideoStrangerThings">
+                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card text-white">
+        <div class="FAQContainer">
+          <h1 id="FAQTitle">Foire aux questions</h1>
+          <div class="FAQitems">
+            <div class="accordion FaqQuestion" id="Question1">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Answer1" aria-expanded="true" aria-controls="Answer1">
+                  Netflix, qu'est-ce que c'est ?
+                </button>
+            </div>
+            <div id="Answer1" class="collapse" aria-labelledby="Question1" data-parent="#Question1">
+              <div class="card text-white faqanswer">
+                Netflix est un service de streaming qui propose une vaste sélection de séries TV, films, animes, documentaires et autres programmes primés sur des milliers d'appareils connectés à Internet.
+                <br>
+                <br>
+                Regardez tout ce que vous voulez, quand vous voulez, sans publicité et à un tarif mensuel très attractif. Découvrez de nouveaux films et séries TV chaque semaine, il y en a pour tous les goûts !
+              </div>
+            </div>
+            <div class="accordion FaqQuestion" id="Question2">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Answer2" aria-expanded="true" aria-controls="Answer2">
+                  Combien coûte Netflix ?
+                </button>
+            </div>
+            <div id="Answer2" class="collapse" aria-labelledby="Question2" data-parent="#Question2">
+              <div class="card text-white faqanswer">
+                Regardez Netflix sur votre smartphone, tablette, Smart TV, ordinateur ou appareil de streaming, à un tarif mensuel fixe très attractif. Forfaits à partir de 7,99 € par mois. Sans contrat ni frais supplémentaires.
+              </div>
+            </div>
+            <div class="accordion FaqQuestion" id="Question3">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Answer3" aria-expanded="true" aria-controls="Answer3">
+                  Où puis-je regarder Netflix ?
+                </button>
+            </div>
+            <div id="Answer3" class="collapse" aria-labelledby="Question3" data-parent="#Question3">
+              <div class="card text-white faqanswer">
+                Regardez où et quand vous voulez, sur un nombre illimité d'appareils. Connectez-vous à votre compte pour regarder Netflix en ligne sur netflix.com depuis votre ordinateur ou tout appareil connecté à Internet avec l'application Netflix, comme les Smart TV, smartphones, tablettes, lecteurs de streaming et consoles de jeu.
+                <br>
+                <br>
+                Vous pouvez aussi télécharger vos séries préférées avec l'application iOS, Android ou Windows 10. Téléchargez des titres pour les regarder sur votre appareil mobile, même sans connexion Internet. Emportez Netflix partout avec vous.
+              </div>
+            </div>
+            <div class="accordion FaqQuestion" id="Question4">
+              <button class="btn" type="button" data-toggle="collapse" data-target="#Answer4" aria-expanded="true" aria-controls="Answer4">
+                Comment puis-je annuler mon forfait ?
+              </button>
+            </div>
+            <div id="Answer4" class="collapse" aria-labelledby="Question4" data-parent="#Question4">
+              <div class="card text-white faqanswer">
+                Netflix offre une grande souplesse. Pas de contrat compliqué. Sans engagement. Deux clics suffisent pour annuler votre compte en ligne. Pas de frais d'annulation: ouvrez ou fermez votre compte à tout moment.
+              </div>
+            </div>
+            <div class="accordion FaqQuestion" id="Question5">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Answer5" aria-expanded="true" aria-controls="Answer5">
+                  Que puis-je regarder sur Netflix ?
+                </button>
+            </div>
+            <div id="Answer5" class="collapse" aria-labelledby="Question5" data-parent="#Question5">
+              <div class="card text-white faqanswer">
+                Netflix propose un vaste catalogue comprenant notamment des longs métrages, des documentaires, des séries TV, des animes et des programmes originaux Netflix primés. Regardez Netflix à volonté, quand vous le voulez.
+              </div>
+          </div>
+        </div>
+
+
+          <form id="emailForm" action="https://hooks.zapier.com/hooks/catch/7207925/o5m121w/" type="post">
+            <div class="input-group">
+                <input type="email" id="e-mail-Customize" name="email-address" placeholder="Adresse e-mail"/>
+                <input type="submit" class="btn-red" value="ESSAYER" id="Form-submit-Customize" />
+            </div>
+          </form>
+          <h3>Prêt à regarder Netflix? Saisissez votre adresse e-mail pour créer votre compte ou y accéder.</h3>
+        </div>
+      </div>
+      <div class="card text-white">
+        <div class="cardFooter">
+          <p class="FooterTop">
+            <a class="footer-link top" href="https://help.netflix.com/contactus">Des questions ? Contactez-nous.</a>
+          </p>
+          <ul class="footerlinks">
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/support/412" placeholder="footer_responsive_link_faq">
+                <span id="" data-uia="data-uia-footer-label">FAQ</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com" placeholder="footer_responsive_link_help">
+                <span id="" data-uia="data-uia-footer-label">Centre d'aide</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="/youraccount" placeholder="footer_responsive_link_account">
+                <span id="" data-uia="data-uia-footer-label">Compte</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://media.netflix.com/" placeholder="footer_responsive_link_media_center">
+                <span id="" data-uia="data-uia-footer-label">Presse</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="http://ir.netflix.com/" placeholder="footer_responsive_link_relations">
+                <span id="" data-uia="data-uia-footer-label">Relations Investisseurs</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://jobs.netflix.com/jobs" placeholder="footer_responsive_link_jobs">
+                <span id="" data-uia="data-uia-footer-label">Recrutement</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="/redeem" placeholder="footer_responsive_link_gift_redeem">
+                <span id="" data-uia="data-uia-footer-label">Utiliser des cartes cadeaux</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="/gift-cards" placeholder="footer_responsive_link_gift_buy">
+                <span id="" data-uia="data-uia-footer-label">Acheter des cartes cadeaux</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="/watch" placeholder="footer_responsive_link_waysToWatch">
+                <span id="" data-uia="data-uia-footer-label">Modes de lecture</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/legal/termsofuse" placeholder="footer_responsive_link_terms">
+                <span id="" data-uia="data-uia-footer-label">Conditions d'utilisation</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/legal/privacy" placeholder="footer_responsive_link_privacy_separate_link">
+                <span id="" data-uia="data-uia-footer-label">Confidentialité</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/legal/privacy#cookies" placeholder="footer_responsive_link_cookies_separate_link">
+                <span id="" data-uia="data-uia-footer-label">Préférences de cookies</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/fr/node/2101" placeholder="footer_responsive_link_corporate_information">
+                <span id="" data-uia="data-uia-footer-label">Mentions légales</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/contactus" placeholder="footer_responsive_link_contact_us">
+                <span id="" data-uia="data-uia-footer-label">Nous contacter</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://fast.com" placeholder="footer_responsive_link_speed_test">
+                <span id="" data-uia="data-uia-footer-label">Test de vitesse</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/legal/notices" placeholder="footer_responsive_link_legal_notices">
+                <span id="" data-uia="data-uia-footer-label">Informations légales</span>
+              </a>
+            </li>
+            <li class="FooterItem">
+              <a class="footer-link" data-uia="footer-link" href="https://www.netflix.com/fr/browse/genre/839338" placeholder="footer_responsive_link_netflix_originals">
+                <span id="" data-uia="data-uia-footer-label">Programmes originaux Netflix</span>
+              </a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="DropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Français
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Français</a>
+              <a class="dropdown-item" href="https://www.netflix.com/fr-en/">English</a>
+            </div>
+          </div>
+          <p class="footer-country">Netflix France</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

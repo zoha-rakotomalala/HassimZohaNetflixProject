@@ -1,0 +1,53 @@
+@import url(components/card-text.css);
+@import url(components/Background-gradient.css);
+@import url(components/header-banner.css);
+@import url(components/text-white-custom.css);
+@import url(components/cardHeader.css);
+@import url(components/card-onScreen.css);
+@import url(components/faq.css);
+@import url(components/CardFooter.css);
+@import url(components/emailForm.css);
+@import url(components/btn-red.css);
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+
+body, h1, h2, a, a:hover{
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2{
+  max-width: 640px;
+}
+
+.container-fluid /*When I use a specific css file for this one, it does not work, and
+I do not know why, so I kept it that way*/{
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+h3{
+  max-width: none;
+  padding: 0;
+  font-size: 1.2rem;
+  margin-top:10px;
+  text-align: center;
+}
